@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#F2F1EE"
+    tools:context=".ComplimentActivity">
+    <include layout="@layout/header"/>
+    <LinearLayout
+        android:layout_margin="15dp"
+        android:background="@android:color/white"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_margin="15dp"
+            android:textSize="16dp"
+            android:fontFamily="@font/title"
+            android:textColor="@color/colorPrimary"
+            android:text="건의 항목 선택"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_marginHorizontal="15dp"
+            android:background="@color/colorPrimary"
+            android:layout_height="1dp"/>
+        <EditText
+            android:gravity="start"
+            android:lines="20"
+            android:layout_margin="15dp"
+            android:textSize="13dp"
+            android:hint="세부 칭찬 사항 입력"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+
+    </LinearLayout>
+    <Button
+        android:layout_marginHorizontal="15dp"
+        android:text="보내기"
+        style="@style/Button.N"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+</LinearLayout>

@@ -12,10 +12,13 @@
     <ImageView
         android:layout_gravity="center"
         android:src="@drawable/ic_title"
-        android:layout_width="80dp"
-        android:layout_height="80dp"/>
+        android:layout_width="68dp"
+        android:adjustViewBounds="true"
+        android:layout_height="wrap_content"/>
     <TextView
+        android:layout_marginTop="60dp"
         android:text="아이디"
+        android:textSize="17dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"/>
     <EditText
@@ -23,6 +26,9 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
     <TextView
+        android:textSize="17dp"
+        android:layout_marginTop="20dp"
+
         android:text="비밀번호"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"/>
@@ -31,6 +37,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
     <TextView
+        android:textSize="9dp"
+
         android:layout_gravity="right"
         android:text="비밀번호를 잊으셨나요?"
         android:layout_width="wrap_content"
@@ -38,16 +46,20 @@
 
 
     <Button
+        android:layout_marginTop="40dp"
         android:text="로그인"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
 
     <TextView
+        android:layout_marginTop="70dp"
+        android:textSize="9dp"
         android:layout_gravity="left"
         android:text="라포미러가 처음이신 경우"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"/>
     <Button
+        android:layout_marginTop="24dp"
         android:text="회원가입"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
