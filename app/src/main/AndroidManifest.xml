@@ -14,7 +14,7 @@
         <activity android:name=".MessageActivity" />
         <activity android:name=".TendinousActivity" />
         <activity android:name=".ComplimentActivity" />
-        <activity android:name=".RegisterActivity" />
+        <activity android:name=".LoginActivity" />
         <activity android:name=".LoadActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>

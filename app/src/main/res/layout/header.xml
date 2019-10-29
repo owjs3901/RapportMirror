@@ -9,18 +9,19 @@
     <TextView
         android:fontFamily="@font/title"
         android:textSize="23dp"
+        android:id="@+id/title"
         android:textColor="@color/colorPrimary"
         android:text="라포미러"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"/>
     <LinearLayout
-        android:divider="80dp"
         android:dividerPadding="20dp"
         android:showDividers="middle"
         android:layout_alignParentRight="true"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content">
         <ImageButton
+            android:onClick="openBell"
             android:src="@drawable/ic_bell"
             android:layout_width="24dp"
             android:layout_height="24dp"/>
@@ -29,6 +30,7 @@
             android:layout_height="match_parent"
             />
         <ImageButton
+            android:onClick="openMessage"
             android:src="@drawable/ic_mail"
             android:layout_width="24dp"
             android:layout_height="24dp"/>
@@ -37,6 +39,7 @@
             android:layout_height="match_parent"
             />
         <ImageButton
+            android:onClick="openSetting"
             android:src="@drawable/ic_setting"
             android:layout_width="24dp"
             android:layout_height="24dp"/>
