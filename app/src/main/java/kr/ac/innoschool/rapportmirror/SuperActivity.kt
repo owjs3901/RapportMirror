@@ -17,11 +17,17 @@ open class SuperActivity: AppCompatActivity() {
 
     fun openBell(view: View){
         startActivity(Intent(this,BroadcastActivity::class.java))
+        if(this !is MainActivity)
+            finish()
     }
     fun openMessage(view: View){
         startActivity(Intent(this,MessageActivity::class.java))
+        if(this !is MainActivity)
+            finish()
     }
     fun openSetting(view: View){
         startActivity(Intent(this,SettingActivity::class.java))
+        if(this !is MainActivity)
+            finish()
     }
 }

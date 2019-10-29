@@ -4,7 +4,7 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 
-class MainActivity : AppCompatActivity() {
+class MainActivity : SuperActivity() {
 
     var isLogin:Boolean=false;
 
@@ -14,7 +14,6 @@ class MainActivity : AppCompatActivity() {
 
         if(!isLogin)
             startActivity(Intent(this,LoginActivity::class.java))
-
     }
 
 }
