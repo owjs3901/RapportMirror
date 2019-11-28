@@ -131,7 +131,7 @@
                 android:layout_marginHorizontal="20dp"
                 android:gravity="left|center_vertical"
                 android:background="@android:color/transparent"
-                android:text="메뉴 항목"
+                android:text="칭찬 그래프"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"/>
             <Button
@@ -139,7 +139,7 @@
                 android:layout_marginHorizontal="20dp"
                 android:gravity="left|center_vertical"
                 android:background="@android:color/transparent"
-                android:text="메뉴 항목"
+                android:text="민원 보내기"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"/>
 

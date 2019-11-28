@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="data">
+        <item>오전 절전 안내</item>
+        <item>강아지 소리 민원이 많습니다.</item>
+        <item>주민들끼리 꼭 인사를 합시다.</item>
+        <item>엘리베이터 수리 안내</item>
+    </string-array>
+    <string-array name="msg">
+        <item>엘리베이터 열어주셔서 감사합니다!</item>
+        <item>즐거운 성탄절 보내세요!</item>
+        <item>교회를 다녀보는건 어떤가요?</item>
+        <item>다음주 월요일 영화보러 갈래요?</item>
+    </string-array>
+</resources>
